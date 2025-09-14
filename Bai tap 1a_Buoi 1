@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class BAITAP1A {
+
+    
+    public static void main(String[] args) {
+        float cd,cr,cv,dt;
+        Scanner scan = new Scanner(System.in);
+        System.out.print(" Nhap chieu dai: ");
+        cd= scan.nextFloat();
+        System.out.print(" Nhap chieu rong: ");
+        cr= scan.nextFloat();
+        cv=(cd+cr)*2;
+        dt=cd*cr;
+        System.out.println("\nChu vi la: "+cv);
+        System.out.println("\nDien tich la: "+dt);
+    }
+    
+}
+
